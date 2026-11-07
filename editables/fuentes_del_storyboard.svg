@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" width="1920" height="1080">
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .header { font-family: 'Segoe UI', sans-serif; font-size: 28px; font-weight: bold; fill: #ffffff; }
+      .sub { font-family: 'Segoe UI', sans-serif; font-size: 16px; fill: #94a3b8; }
+      .frame-border { fill: #1e293b; stroke: #e11d48; stroke-width: 3; rx: 8; }
+      .meta-box { fill: #ffffff; stroke: #cbd5e1; stroke-width: 1.5; rx: 6; }
+      .tag-bg { fill: #881337; }
+      .tag-text { font-family: 'Segoe UI', sans-serif; font-size: 14px; font-weight: bold; fill: #ffffff; }
+      .field-label { font-family: 'Segoe UI', sans-serif; font-size: 12px; font-weight: bold; fill: #be123c; }
+      .field-val { font-family: 'Segoe UI', sans-serif; font-size: 12px; fill: #1e293b; }
+      .grid-line { stroke: #334155; stroke-dasharray: 4,4; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1920" height="1080" class="bg" />
+
+  <!-- Header -->
+  <text x="60" y="55" class="header">MASKDUDE: EL FESTÍN DEL TÓTEM — STORYBOARD VECTORIAL EDITABLE</text>
+  <text x="60" y="85" class="sub">Asignatura: Diseño Multimedia y Videojuegos · 9.º Semestre · FESC | Viñetas V01 a V06 (Proporción 16:9)</text>
+
+  <!-- ROW 1: V01, V02, V03 -->
+  <!-- V01 -->
+  <g transform="translate(60, 110)">
+    <rect width="560" height="315" class="frame-border" />
+    <line x1="0" y1="0" x2="560" y2="315" class="grid-line" />
+    <line x1="560" y1="0" x2="0" y2="315" class="grid-line" />
+    <text x="280" y="150" font-family="sans-serif" font-size="20" fill="#fda4af" font-weight="bold" text-anchor="middle">V01: INTRODUCCIÓN Y LLAMADA</text>
+    <text x="280" y="180" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Cinemática Interactiva | State.LOCKED | Beat B1</text>
+    <rect y="330" width="560" height="100" class="meta-box" />
+    <rect y="330" width="560" height="25" class="tag-bg" rx="4" />
+    <text x="10" y="347" class="tag-text">V01 · ESC-01 · Beat B1 · Cinemática interactiva (LOCKED)</text>
+    <text x="10" y="372" class="field-label">Acción: <tspan class="field-val">Lectura de tarjetas; el Tótem parpadea y solicita recuperar la ofrenda.</tspan></text>
+    <text x="10" y="392" class="field-label">Sistema: <tspan class="field-val">Fade out de máscara negra; brillo del Tótem asciende con SFX.</tspan></text>
+    <text x="10" y="412" class="field-label">Audio: <tspan class="field-val">overworld.ogg en bucle + mushroomappear.ogg + blips de texto.</tspan></text>
+  </g>
+
+  <!-- V02 -->
+  <g transform="translate(680, 110)">
+    <rect width="560" height="315" class="frame-border" />
+    <line x1="0" y1="0" x2="560" y2="315" class="grid-line" />
+    <line x1="560" y1="0" x2="0" y2="315" class="grid-line" />
+    <text x="280" y="150" font-family="sans-serif" font-size="20" fill="#fda4af" font-weight="bold" text-anchor="middle">V02: UMBRAL Y DOBLE SALTO</text>
+    <text x="280" y="180" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Gameplay | Control Pleno | Beat B2</text>
+    <rect y="330" width="560" height="100" class="meta-box" />
+    <rect y="330" width="560" height="25" class="tag-bg" rx="4" />
+    <text x="10" y="347" class="tag-text">V02 · ESC-01 · Beat B2 · Gameplay (Control Pleno)</text>
+    <text x="10" y="372" class="field-label">Acción: <tspan class="field-val">Salto y doble salto (Espacio/W) para alcanzar frutas sobre pirámides.</tspan></text>
+    <text x="10" y="392" class="field-label">Sistema: <tspan class="field-val">Muestra hint_double_jump; actualiza contador HUD: Frutas: 1/13.</tspan></text>
+    <text x="10" y="412" class="field-label">Audio: <tspan class="field-val">jump.ogg (1.35x pitch en segundo impulso) y tintineo coin.ogg.</tspan></text>
+  </g>
+
+  <!-- V03 -->
+  <g transform="translate(1300, 110)">
+    <rect width="560" height="315" class="frame-border" />
+    <line x1="0" y1="0" x2="560" y2="315" class="grid-line" />
+    <line x1="560" y1="0" x2="0" y2="315" class="grid-line" />
+    <text x="280" y="150" font-family="sans-serif" font-size="20" fill="#fda4af" font-weight="bold" text-anchor="middle">V03: ESCALADA Y DASH EN VACÍO</text>
+    <text x="280" y="180" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Gameplay Crítico | Control Pleno | Beat B3</text>
+    <rect y="330" width="560" height="100" class="meta-box" />
+    <rect y="330" width="560" height="25" class="tag-bg" rx="4" />
+    <text x="10" y="347" class="tag-text">V03 · ESC-01/02 · Beat B3 · Gameplay Crítico (Control Pleno)</text>
+    <text x="10" y="372" class="field-label">Acción: <tspan class="field-val">Dash aéreo (Shift/K) para salvar el abismo entre plataformas Hover.</tspan></text>
+    <text x="10" y="392" class="field-label">Sistema: <tspan class="field-val">Gravedad 0 por 0.15s, estela de imágenes fantasma y recolección.</tspan></text>
+    <text x="10" y="412" class="field-label">Audio: <tspan class="field-val">SFX sordo fireball.ogg; ambiente rítmico continuo.</tspan></text>
+  </g>
+
+  <!-- ROW 2: V04, V05, V06 -->
+  <!-- V04 -->
+  <g transform="translate(60, 580)">
+    <rect width="560" height="315" class="frame-border" />
+    <line x1="0" y1="0" x2="560" y2="315" class="grid-line" />
+    <line x1="560" y1="0" x2="0" y2="315" class="grid-line" />
+    <text x="280" y="150" font-family="sans-serif" font-size="20" fill="#fda4af" font-weight="bold" text-anchor="middle">V04: RESPIRO Y EVALUACIÓN TÁCTICA</text>
+    <text x="280" y="180" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Gameplay con Diálogo | LOCKED Temporal | Beat B4</text>
+    <rect y="330" width="560" height="100" class="meta-box" />
+    <rect y="330" width="560" height="25" class="tag-bg" rx="4" />
+    <text x="10" y="347" class="tag-text">V04 · ESC-02 · Beat B4 · Pausa Táctica (LOCKED Temporal)</text>
+    <text x="10" y="372" class="field-label">Acción: <tspan class="field-val">Entrada al trigger totem_midway en saliente; lectura del mensaje.</tspan></text>
+    <text x="10" y="392" class="field-label">Sistema: <tspan class="field-val">Caja retro: «Ya siento tu ofrenda...». Control congelado mientras lee.</tspan></text>
+    <text x="10" y="412" class="field-label">Audio: <tspan class="field-val">blip.ogg y reducción de exigencia motriz.</tspan></text>
+  </g>
+
+  <!-- V05 -->
+  <g transform="translate(680, 580)">
+    <rect width="560" height="315" class="frame-border" />
+    <line x1="0" y1="0" x2="560" y2="315" class="grid-line" />
+    <line x1="560" y1="0" x2="0" y2="315" class="grid-line" />
+    <text x="280" y="150" font-family="sans-serif" font-size="20" fill="#fda4af" font-weight="bold" text-anchor="middle">V05: CLÍMAX Y JUICIO DEL TÓTEM</text>
+    <text x="280" y="180" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Gameplay a Cinemática | Transición a LOCKED | Beat B5</text>
+    <rect y="330" width="560" height="100" class="meta-box" />
+    <rect y="330" width="560" height="25" class="tag-bg" rx="4" />
+    <text x="10" y="347" class="tag-text">V05 · ESC-02 · Beat B5 · Clímax Decisivo (LOCKED)</text>
+    <text x="10" y="372" class="field-label">Acción: <tspan class="field-val">Salto final al altar; contacto con el área del Tótem Dorado.</tspan></text>
+    <text x="10" y="392" class="field-label">Sistema: <tspan class="field-val">level_completed disparado; tween ilumina el Tótem; diálogo final.</tspan></text>
+    <text x="10" y="412" class="field-label">Audio: <tspan class="field-val">Corte de música; jingle triunfal levelend.ogg y totem_sound.</tspan></text>
+  </g>
+
+  <!-- V06 -->
+  <g transform="translate(1300, 580)">
+    <rect width="560" height="315" class="frame-border" />
+    <line x1="0" y1="0" x2="560" y2="315" class="grid-line" />
+    <line x1="560" y1="0" x2="0" y2="315" class="grid-line" />
+    <text x="280" y="150" font-family="sans-serif" font-size="20" fill="#fda4af" font-weight="bold" text-anchor="middle">V06: RESOLUCIÓN Y ENIGMA SAGRADO</text>
+    <text x="280" y="180" font-family="sans-serif" font-size="14" fill="#cbd5e1" text-anchor="middle">Cinemática Epílogo | State.LOCKED | Beat B6</text>
+    <rect y="330" width="560" height="100" class="meta-box" />
+    <rect y="330" width="560" height="25" class="tag-bg" rx="4" />
+    <text x="10" y="347" class="tag-text">V06 · ESC-02 · Beat B6 · Cinemática Final (LOCKED)</text>
+    <text x="10" y="372" class="field-label">Acción: <tspan class="field-val">Contemplación del epílogo; reflexión sobre el destino del elegido.</tspan></text>
+    <text x="10" y="392" class="field-label">Sistema: <tspan class="field-val">Tarjeta FIN dorada con balance de cosecha; opción de reinicio (R).</tspan></text>
+    <text x="10" y="412" class="field-label">Audio: <tspan class="field-val">Silencio solemne tras el jingle.</tspan></text>
+  </g>
+</svg>
