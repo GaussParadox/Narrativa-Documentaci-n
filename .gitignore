@@ -1,0 +1,58 @@
+# ==============================================================================
+# .gitignore — Repositorio Documental MaskDude (FESC)
+# RESTRICCIÓN: Repositorio exclusivamente documental.
+# Prohíbe código fuente, escenas, binarios y ejecutables del juego.
+# ==============================================================================
+
+# Código fuente y scripts de Godot / programación
+*.gd
+*.cs
+*.cpp
+*.c
+*.h
+*.hpp
+*.py
+!tools/*.py
+*.sh
+*.bat
+*.ps1
+
+# Escenas, recursos binarios y metadatos de importación de Godot
+*.tscn
+*.scn
+*.res
+project.godot
+.godot/
+.import/
+*.uid
+
+# Ejecutables y empaquetados
+*.exe
+*.bin
+*.apk
+*.aab
+*.app
+*.ipa
+*.dll
+*.so
+*.dylib
+*.pck
+
+# Archivos temporales de SO y editores
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.bak
+*.swp
+*~
+.idea/
+.vscode/
+
+# Secretos y credenciales
+*.env
+*.key
+*.pem
+id_rsa
+id_rsa.pub
+secrets.*
