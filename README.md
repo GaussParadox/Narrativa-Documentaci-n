@@ -23,14 +23,11 @@
 
 ---
 
-## 2. Integrantes del Equipo
+## 2. Autor
 
-| Integrante | Rol Documental y Técnico | Área de Responsabilidad |
+| Estudiante | Rol Documental | Área de Responsabilidad |
 | :--- | :--- | :--- |
-| **Oscar Andrés Arciniegas Bustos** | Diseñador Narrativo y UI | Premisa, personajes, guion jugable de `ESC-01` y `ESC-02` y caja de diálogos. |
-| **Wilson Alejandro Saavedra Arenales** | Ingeniero de QA y Trazabilidad | Matriz de trazabilidad, lista de chequeo cualitativa y validación de pruebas GUT. |
-| **Hugo Orielso Cañas Lozano** | Diseñador de Físicas y Jugador | Especificación de la máquina de estados de Mask Dude, doble salto y dash. |
-| **Elkin Sebastian Perez Marquez** | Diseñador de Niveles y Arte | Estructura de 3 actos, curva de tensión, storyboard, mapa técnico e inventario de assets. |
+| **Wilson Alejandro Saavedra Arenales** | Documentación Narrativa Individual | Premisa, personajes, estructura narrativa, guion jugable, storyboard, mapa técnico, trazabilidad y lista de chequeo. |
 
 ---
 
